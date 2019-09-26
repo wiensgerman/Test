@@ -7,7 +7,7 @@ import random
 
 def weighted_random(values, weights):
     total_weight = sum(weights)
-    acum_weights = [w / total_weight for w in weights[:]] # Make weights probabilities
+    acum_weights = [w / total_weight for w in weights[:]] # Make probabilities from weights
     rand = random.random() # Generate a random number from (0,1) uniform distribution
     for i in range(len(weights)-1):
         acum_weights[i+1] += acum_weights[i] # Make cummulative probabilities
