@@ -1,5 +1,5 @@
 Lets begin by finding the amount of golden coins that are in the treasure. We can call that amount X, and we now that, after splitting
-the treasure in equal parts for a group of 99 pirates Morgan recieves 51 coins and if he choose a group of 77 he receives 29 coins. This
+the treasure in equal parts for a group of 99 pirates, Morgan recieves 51 coins. If he choose a group of 77 he receives 29 coins. This
 means that if we divide X by 99 the remainder is 51, and dividing X by 77 has remainder 29.
 
 Then we can write:
@@ -28,7 +28,7 @@ _645=P(c+1)-1_ -----> _646=P(c+1)_  Where _c_ has to be greater than 0.
 
 We would like to find the larger value for P for the las equation, because greater P means greater remainder P-1 for Morgan. This makes a lot of sense because smaller groups will let less remainder.
 
-As 646 is even and _c=>1_ we can choose _c=1_ and, then we have that _P=323_. We can conclude that if Morgan choose a group of 323 pirates he will recieve 322 coins, and thats the maximum he could get.
+As 646 is even and _c_ must be at least 1, we can choose _c=1_ and, then we have that _P=323_. As _c_ can not be smaller than 1, then _P_ can not be greater than 323. We can conclude that if Morgan choose a group of 323 pirates he will recieve 322 coins, and thats the maximum he could get.
 
 Given a number of pirate morgan always recieve the remainder of dividing 645 by the number of pirates.
 
