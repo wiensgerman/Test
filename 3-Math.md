@@ -31,3 +31,6 @@ We would like to find the larger value for P for the las equation, because great
 As 646 is even and _c=>1_ we can choose _c=1_ and, then we have that _P=323_. We can conclude that if Morgan choose a group of 323 pirates he will recieve 322 coins, and thats the maximum he could get.
 
 Given a number of pirate morgan always recieve the remainder of dividing 645 by the number of pirates.
+
+The following plot shows the coins that Morgan will recieve for each number of pirates in the group.
+![](Captura.PNG)
